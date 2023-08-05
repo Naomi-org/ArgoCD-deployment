@@ -5,7 +5,6 @@ metadata:
   labels:
     app: enohdemo
   name: enohdemo
-  namespace: demo
 spec:
   replicas: 8
   selector:
@@ -30,7 +29,6 @@ metadata:
   name: enoh-service
   labels:
     app: lb-service
-  namespace: demo
 spec:
   type: ClusterIP
   ports:
