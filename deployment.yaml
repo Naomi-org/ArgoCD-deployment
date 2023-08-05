@@ -7,7 +7,7 @@ metadata:
   name: flaskdemo
   namespace: demo
 spec:
-  replicas: 100
+  replicas: 10
   selector:
     matchLabels:
       app: flaskdemo
