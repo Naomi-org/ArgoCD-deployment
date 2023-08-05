@@ -3,8 +3,8 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: flaskdemo
-  name: flaskdemo
+    app: enohdemo
+  name: enohdemo
   namespace: demo
 spec:
   replicas: 10
@@ -27,7 +27,7 @@ status: {}
 apiVersion: v1
 kind: Service
 metadata:
-  name: lb-service
+  name: enoh-service
   labels:
     app: lb-service
   namespace: demo
