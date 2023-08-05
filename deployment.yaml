@@ -6,7 +6,7 @@ metadata:
     app: enohdemo
   name: enohdemo
 spec:
-  replicas: 8
+  replicas: 5
   selector:
     matchLabels:
       app: flaskdemo
