@@ -5,6 +5,7 @@ metadata:
   labels:
     app: flaskdemo
   name: flaskdemo
+  namespace: demo
 spec:
   replicas: 3
   selector:
@@ -29,6 +30,7 @@ metadata:
   name: lb-service
   labels:
     app: lb-service
+  namespace: demo
 spec:
   type: ClusterIP
   ports:
